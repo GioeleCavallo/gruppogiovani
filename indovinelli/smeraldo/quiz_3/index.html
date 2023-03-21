@@ -1,0 +1,34 @@
+
+<html>
+    <style>
+        body{
+            background-color: #F6E8EA;
+            text-align: center;
+        }
+        #title{
+            color: #EF626C;
+
+        }
+        .question{
+            color: #22181C;
+            margin: 0px;
+        }
+    </style>
+    <body>
+    <script>
+        function print(){
+
+            document.write("<h2 id='title'>Sai dire che cosa é?</h2>");
+            document.write("<h3 class='question'>Puoi trovare nozioni di ogni tipo.</h3>");
+        }
+
+        var password = prompt("Vediamo di che squadra sei... dammi la tua password!")
+
+        if(password == "Smeraldo"){
+            print();
+        }else{
+            var clickedOk = confirm("ci hai provato...");
+        }
+    </script>
+</body>
+</html>
